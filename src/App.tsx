@@ -103,7 +103,7 @@ function NicknameScreen({ onSave }: { onSave: (name: string) => void }) {
             autoComplete="name"
             inputMode="text"
             maxLength={28}
-            placeholder="Ahmad"
+            placeholder="Siuuuuu"
             value={value}
             onChange={(event) => setValue(event.target.value)}
           />

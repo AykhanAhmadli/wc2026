@@ -63,7 +63,7 @@ function drawCard({
 
   return `
     <rect x="${x}" y="${y - CARD_H / 2}" width="${CARD_W}" height="${CARD_H}" rx="11" fill="${fill}" stroke="${stroke}" stroke-width="2"/>
-    <text x="${textX}" y="${y + 8}" text-anchor="${anchor}" font-size="20" font-weight="900" fill="${textColor}">${escapeXml(teamLabel(team))}</text>
+    <text x="${textX}" y="${y + 8}" text-anchor="${anchor}" font-family="Roboto, Arial, sans-serif" font-size="20" font-weight="900" fill="${textColor}">${escapeXml(teamLabel(team))}</text>
   `
 }
 
@@ -223,6 +223,11 @@ export function buildBracketSvg(nickname: string, picks: Picks): string {
   return `
 <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
   <defs>
+    <style>
+      text {
+        font-family: Roboto, Arial, sans-serif;
+      }
+    </style>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#315dff"/>
       <stop offset="0.58" stop-color="#3567ff"/>
@@ -254,6 +259,9 @@ export function buildBracketSvg(nickname: string, picks: Picks): string {
 }
 
 export async function downloadBracketPng(nickname: string, picks: Picks): Promise<void> {
+  await document.fonts?.load('900 44px Roboto')
+  await document.fonts?.ready
+
   const svg = buildBracketSvg(nickname, picks)
   const blob = new Blob([svg], { type: 'image/svg+xml;charset=utf-8' })
   const url = URL.createObjectURL(blob)

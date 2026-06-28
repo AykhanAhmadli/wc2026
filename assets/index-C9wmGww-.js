@@ -20,13 +20,13 @@ Minimum version required to store current data is: `+c+`.
     ${qe(940,o,n,Je(516,0))}
     ${qe(je-760-j,s,1245,Je(516,1))}
     <rect x="${n}" y="468" width="290" height="150" rx="22" fill="${Le}"/>
-    <text x="${t}" y="506" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900" fill="#ff6a00">FINAL</text>
-    <text x="${t}" y="548" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900" fill="#ffffff">${He(Ue(r))}</text>
-    <text x="${t}" y="579" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="900" fill="#dfe7ff">vs</text>
-    <text x="${t}" y="607" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900" fill="#ffffff">${He(Ue(i))}</text>
+    <text x="${t}" y="506" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="22" font-weight="900" fill="#ff6a00">FINAL</text>
+    <text x="${t}" y="548" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="25" font-weight="900" fill="#ffffff">${He(Ue(r))}</text>
+    <text x="${t}" y="579" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="16" font-weight="900" fill="#dfe7ff">vs</text>
+    <text x="${t}" y="607" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="25" font-weight="900" fill="#ffffff">${He(Ue(i))}</text>
     <rect x="${t-310}" y="665" width="620" height="116" rx="30" fill="${Ie}"/>
-    <text x="${t}" y="707" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="900" fill="#041544">CHAMPION</text>
-    <text x="${t}" y="753" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="1000" fill="#041544">${He(Ue(a))}</text>
+    <text x="${t}" y="707" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="24" font-weight="900" fill="#041544">CHAMPION</text>
+    <text x="${t}" y="753" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="40" font-weight="1000" fill="#041544">${He(Ue(a))}</text>
   `}function nt(e,t){return`
 <svg xmlns="http://www.w3.org/2000/svg" width="${je}" height="${Me}" viewBox="0 0 ${je} ${Me}">
   <defs>
@@ -42,16 +42,16 @@ Minimum version required to store current data is: `+c+`.
   <rect width="${je}" height="${Me}" fill="url(#bg)"/>
   <circle cx="2050" cy="100" r="430" fill="#003cff" opacity=".88"/>
   <circle cx="120" cy="1210" r="410" fill="#003cff" opacity=".55"/>
-  <text x="${je/2}" y="66" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="900" fill="#ffffff">WC 2026 Bracket Picks</text>
-  <text x="${je/2}" y="108" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#ff6a00">${He(e||`Family Bracket`)}</text>
-  <text x="150" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">R32</text>
-  <text x="405" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">R16</text>
-  <text x="640" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">QF</text>
-  <text x="850" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">SF</text>
-  <text x="1350" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">SF</text>
-  <text x="1560" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">QF</text>
-  <text x="1795" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">R16</text>
-  <text x="2050" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">R32</text>
+  <text x="${je/2}" y="66" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="44" font-weight="900" fill="#ffffff">WC 2026 Bracket Picks</text>
+  <text x="${je/2}" y="108" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="24" font-weight="800" fill="#ff6a00">${He(e||`Family Bracket`)}</text>
+  <text x="150" y="145" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">R32</text>
+  <text x="405" y="145" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">R16</text>
+  <text x="640" y="145" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">QF</text>
+  <text x="850" y="145" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">SF</text>
+  <text x="1350" y="145" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">SF</text>
+  <text x="1560" y="145" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">QF</text>
+  <text x="1795" y="145" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">R16</text>
+  <text x="2050" y="145" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">R32</text>
   <g filter="url(#shadow)">
     ${et(`left`,t)}
     ${et(`right`,t)}

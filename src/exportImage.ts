@@ -209,13 +209,13 @@ function drawFinal(picks: Picks): string {
     ${drawStraightConnector(760 + CARD_W, leftSfCenter, finalX, cardY(finalY + 48, 0))}
     ${drawStraightConnector(W - 760 - CARD_W, rightSfCenter, finalX + 290, cardY(finalY + 48, 1))}
     <rect x="${finalX}" y="${finalY}" width="290" height="150" rx="22" fill="${NAVY}"/>
-    <text x="${finalCenterX}" y="${finalY + 38}" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900" fill="#ff6a00">FINAL</text>
-    <text x="${finalCenterX}" y="${finalY + 80}" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900" fill="#ffffff">${escapeXml(teamLabel(leftFinalist))}</text>
-    <text x="${finalCenterX}" y="${finalY + 111}" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="900" fill="#dfe7ff">vs</text>
-    <text x="${finalCenterX}" y="${finalY + 139}" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900" fill="#ffffff">${escapeXml(teamLabel(rightFinalist))}</text>
+    <text x="${finalCenterX}" y="${finalY + 38}" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="22" font-weight="900" fill="#ff6a00">FINAL</text>
+    <text x="${finalCenterX}" y="${finalY + 80}" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="25" font-weight="900" fill="#ffffff">${escapeXml(teamLabel(leftFinalist))}</text>
+    <text x="${finalCenterX}" y="${finalY + 111}" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="16" font-weight="900" fill="#dfe7ff">vs</text>
+    <text x="${finalCenterX}" y="${finalY + 139}" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="25" font-weight="900" fill="#ffffff">${escapeXml(teamLabel(rightFinalist))}</text>
     <rect x="${finalCenterX - 310}" y="${championY}" width="620" height="116" rx="30" fill="${WINNER}"/>
-    <text x="${finalCenterX}" y="${championY + 42}" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="900" fill="#041544">CHAMPION</text>
-    <text x="${finalCenterX}" y="${championY + 88}" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="1000" fill="#041544">${escapeXml(teamLabel(champion))}</text>
+    <text x="${finalCenterX}" y="${championY + 42}" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="24" font-weight="900" fill="#041544">CHAMPION</text>
+    <text x="${finalCenterX}" y="${championY + 88}" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="40" font-weight="1000" fill="#041544">${escapeXml(teamLabel(champion))}</text>
   `
 }
 
@@ -235,16 +235,16 @@ export function buildBracketSvg(nickname: string, picks: Picks): string {
   <rect width="${W}" height="${H}" fill="url(#bg)"/>
   <circle cx="2050" cy="100" r="430" fill="#003cff" opacity=".88"/>
   <circle cx="120" cy="1210" r="410" fill="#003cff" opacity=".55"/>
-  <text x="${W / 2}" y="66" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="900" fill="#ffffff">WC 2026 Bracket Picks</text>
-  <text x="${W / 2}" y="108" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#ff6a00">${escapeXml(nickname || 'Family Bracket')}</text>
-  <text x="150" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">R32</text>
-  <text x="405" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">R16</text>
-  <text x="640" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">QF</text>
-  <text x="850" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">SF</text>
-  <text x="1350" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">SF</text>
-  <text x="1560" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">QF</text>
-  <text x="1795" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">R16</text>
-  <text x="2050" y="145" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">R32</text>
+  <text x="${W / 2}" y="66" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="44" font-weight="900" fill="#ffffff">WC 2026 Bracket Picks</text>
+  <text x="${W / 2}" y="108" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="24" font-weight="800" fill="#ff6a00">${escapeXml(nickname || 'Family Bracket')}</text>
+  <text x="150" y="145" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">R32</text>
+  <text x="405" y="145" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">R16</text>
+  <text x="640" y="145" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">QF</text>
+  <text x="850" y="145" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">SF</text>
+  <text x="1350" y="145" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">SF</text>
+  <text x="1560" y="145" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">QF</text>
+  <text x="1795" y="145" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">R16</text>
+  <text x="2050" y="145" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="19" font-weight="900" fill="#dfe7ff">R32</text>
   <g filter="url(#shadow)">
     ${drawSide('left', picks)}
     ${drawSide('right', picks)}

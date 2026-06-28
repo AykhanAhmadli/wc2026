@@ -1,0 +1,19 @@
+{
+  "name": "WC 2026 Bracket Picker",
+  "short_name": "WC Bracket",
+  "description": "Pick World Cup 2026 knockout winners and download your champion bracket.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#315dff",
+  "theme_color": "#315dff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
